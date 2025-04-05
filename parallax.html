@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Space Security</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Parallax Scroll | Akhil Mahant</title>
   <style>
     body, html {
       margin: 0;
@@ -12,34 +11,54 @@
       height: 100%;
       font-family: Arial, sans-serif;
     }
+
     .parallax {
-      background-image: url("space_background.jpg");
+      background-image: url('space_background.jpg');
       height: 100vh;
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
     }
+
     .content {
       height: 100vh;
-      background-color: #111;
-      color: #fff;
+      background-color: white;
+      color: #222;
       display: flex;
-      align-items: center;
       justify-content: center;
+      align-items: center;
       text-align: center;
       padding: 2rem;
+      box-sizing: border-box;
     }
+
     h1 {
       font-size: 3rem;
-      margin: 0;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      max-width: 800px;
+      font-size: 1.2rem;
+      line-height: 1.6;
     }
   </style>
 </head>
 <body>
   <div class="parallax"></div>
+
   <div class="content">
-    <h1>Exploring Space Security Through the Lens of International Relations</h1>
+    <div>
+      <h1>Space Security & Diplomacy</h1>
+      <p>
+        Exploring the intersection of nuclear diplomacy and outer space governance.
+        This platform reflects evolving research in international relations, strategic foresight, 
+        and the future of global security architecture beyond Earth.
+      </p>
+    </div>
   </div>
+
+  <div class="parallax"></div>
 </body>
 </html>
